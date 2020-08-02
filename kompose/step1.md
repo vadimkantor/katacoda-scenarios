@@ -1,0 +1,4 @@
+Kompose is deployed as a binary onto a client. To install Kompose on Katacoda, run the command 
+`curl -L https://github.com/kubernetes/kompose/releases/download/v1.9.0/kompose-linux-amd64 -o /usr/bin/kompose && chmod +x /usr/bin/kompose`{{execute}}
+
+Details on how to install Kompose for your OS can be found at https://github.com/kubernetes/kompose/releases
