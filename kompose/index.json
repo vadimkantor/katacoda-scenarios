@@ -4,6 +4,11 @@
   "difficulty": "Intermediate",
   "time": "30 min",
   "details": {
+    "assets": {
+      "host01": [
+        {"file": "docker-compose1.yml", "target": "./"}
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
