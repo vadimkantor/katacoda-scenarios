@@ -28,7 +28,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "jboss/wildfly ",
+    "imageid": "jboss/wildfly",
     "port": "8080"
   }
 }
