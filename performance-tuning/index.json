@@ -7,25 +7,37 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "courseData": "background.sh",
-        "code": "foreground.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
         "text": "step2.md"
       }
     ],
+    "intro": {
+      "courseData": "env-init.sh",
+      "code": "set-env.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
     "assets": {
       "host01": [
-        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-        {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        {
+          "file": ".init.sh",
+          "target": "~/",
+          "chmod": "+x"
+        }
       ]
     }
   },
   "environment": {
-    "hideintro": true, "hidefinish": true,
-    "uilayout": "terminal-iframe"
+    "showdashboard": true,
+    "dashboard": "Dashboard",
+    "uilayout": "terminal-iframe",
+    "hideintro": false,
+    "hidefinish": false
   },
   "backend": {
     "imageid": "ubuntu",
