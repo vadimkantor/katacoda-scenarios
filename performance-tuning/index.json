@@ -15,8 +15,6 @@
       }
     ],
     "intro": {
-      "courseData": "env-init.sh",
-      "code": "set-env.sh",
       "text": "intro.md"
     },
     "finish": {
@@ -25,7 +23,7 @@
     "assets": {
       "host01": [
         {
-          "file": ".init.sh",
+          "file": "setupEnv.sh",
           "target": "~/",
           "chmod": "+x"
         }
