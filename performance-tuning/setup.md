@@ -1,1 +1,1 @@
-To install WildFly, type `setupEnv.sh`{{execute}}
+To install WildFly, type `./setupEnv.sh`{{execute}}
