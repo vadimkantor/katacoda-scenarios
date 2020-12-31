@@ -44,7 +44,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboard": [
+    "dashboards": [
         {"name": "Admin", "port": 9990},
         {"name": "Application", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/applicationPetstore"}],
     "uilayout": "terminal-iframe",
