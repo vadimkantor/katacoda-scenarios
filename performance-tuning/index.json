@@ -28,6 +28,11 @@
           "chmod": "+x"
         },
         {
+          "file": "installApp.sh",
+          "target": "~/",
+          "chmod": "+x"
+        },
+        {
           "file": "applicationPetstore.war",
           "target": "~/",
           "chmod": "+r"
