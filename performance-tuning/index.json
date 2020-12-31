@@ -37,7 +37,8 @@
     "dashboard": "Dashboard",
     "uilayout": "terminal-iframe",
     "hideintro": false,
-    "hidefinish": false
+    "hidefinish": false,
+    "showide": true
   },
   "backend": {
     "imageid": "ubuntu",
