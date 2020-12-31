@@ -10,8 +10,8 @@
         "text": "setup.md"
       },
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Install App",
+        "text": "installApp.md"
       }
     ],
     "intro": {
@@ -31,6 +31,7 @@
           "file": "applicationPetstore.war",
           "target": "~/",
           "chmod": "+r"
+        }
       ]
     }
   },
