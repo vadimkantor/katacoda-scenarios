@@ -45,14 +45,14 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-        {"name": "Admin", "port": 8080},
+        {"name": "Console", "port": 9990},
         {"name": "Application", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/applicationPetstore"},
-        {"name": "Server Log", "command": "docker logs -f wildfly", "target": "host01"}
+        {"name": "Server Log", "command": "docker logs wildfly", "target": "host01"}
     ],
     "uilayout": "terminal",
     "hideintro": false,
     "hidefinish": false,
-    "showide": true,
+    "showide": false,
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
