@@ -25,8 +25,8 @@
     "assets": {
       "host01": [
         {
-          "file": "installApp.sh",
-          "target": "~/",
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
           "chmod": "+x"
         },
         {
@@ -35,8 +35,8 @@
           "chmod": "+r"
         },
         {
-          "file": "wait.sh",
-          "target": "/usr/local/bin/",
+          "file": "installApp.sh",
+          "target": "~/",
           "chmod": "+x"
         }
       ]
