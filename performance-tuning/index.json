@@ -8,7 +8,8 @@
       {
         "title": "Setup",
         "text": "setup.md",
-        "code": "setupEnv.sh"
+        "courseData": "setupEnv.sh",
+        "code": "foreground.sh"
       },
       {
         "title": "Install App",
@@ -32,14 +33,12 @@
           "file": "applicationPetstore.war",
           "target": "~/",
           "chmod": "+r"
-        }
+        },
+        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     }
   },
   "environment": {
-    "showvisualise": true,
-    "scope": "docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:1.9.1 --probe.docker=true",
-    "scopePort": 4040,
     "hideintro": false,
     "showdashboard": true,
     "dashboards": [
