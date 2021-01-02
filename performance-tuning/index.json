@@ -7,17 +7,17 @@
     "steps": [
       {
         "title": "Setup",
+        "code": "courseBase.sh",
         "text": "setup.md"
       },
       {
         "title": "Install App",
+        "code": "installApp.sh",
         "text": "installApp.md"
       }
     ],
     "intro": {
-        "text": "intro.md",
-         "courseData": "courseBase.sh",
-         "credits": ""
+        "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
