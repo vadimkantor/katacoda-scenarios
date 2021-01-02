@@ -42,18 +42,12 @@
     }
   },
   "environment": {
+    "hideintro": true,
     "showdashboard": true,
     "dashboards": [
-        {"name": "Terminal 2", "target": "host01"},   
-        {"name": "Docker Stats", "command": "docker stats", "target": "host01"},
-        {"name": "Application", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/applicationPetstore"}
-    ],
-    "uilayout": "terminal",
-    "hideintro": false,
-    "hidefinish": false,
-    "showide": false,
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
-    "uimessage2": "\u001b[32mYour Second Interactive Bash Terminal.\u001b[m\r\n"
+      {"name": "Terminal 2", "target": "host01"},
+      {"name": "Application", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/applicationPetstore"}],
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu",
