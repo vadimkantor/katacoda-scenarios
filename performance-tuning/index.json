@@ -8,7 +8,7 @@
       {
         "title": "Setup",
         "text": "setup.md",
-        "code": "courseBase.sh"
+        "code": "setupEnv.sh"
       },
       {
         "title": "Install App",
@@ -23,11 +23,6 @@
     },
     "assets": {
       "host01": [
-        {
-          "file": "setupEnv.sh",
-          "target": "~/",
-          "chmod": "+x"
-        },
         {
           "file": "installApp.sh",
           "target": "~/",
@@ -47,7 +42,7 @@
     "dashboards": [
       {"name": "Terminal 2", "target": "host01"},
       {"name": "Application", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/applicationPetstore"}],
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu",
