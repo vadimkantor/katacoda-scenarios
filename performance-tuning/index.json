@@ -49,7 +49,7 @@
           "chmod": "+r"
         },
         {
-          "file": "startLoadTest.sh",
+          "file": "startLoad.sh",
           "target": "~/",
           "chmod": "+x"
         }
