@@ -72,7 +72,7 @@
     ],
     "uilayout": "editor-terminal-v1",
     "uisettings": "bash",
-    "exclusionPatterns": [".*"]
+    "exclusionPatterns": [".ssh"]
   },
   "backend": {
     "imageid": "ubuntu",
