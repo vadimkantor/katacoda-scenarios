@@ -9,9 +9,8 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="APP_HOST" elementType="Argument">
-
             <stringProp name="Argument.name">APP_HOST</stringProp>
-            <stringProp name="Argument.value">${__P(env.APP_HOST)}</stringProp>
+            <stringProp name="Argument.value">${__BeanShell( System.getenv(&quot;APP_HOST&quot;))}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
