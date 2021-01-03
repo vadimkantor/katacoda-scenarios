@@ -2,7 +2,7 @@
 
 show_progress()
 {
-  echo -n "Starting"
+  echo -n "Starting WildFly Server"
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
@@ -21,7 +21,7 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Started"
+  echo "WildFly Server is started now!"
 }
 
 show_progress
