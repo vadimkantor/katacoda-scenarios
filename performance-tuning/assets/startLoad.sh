@@ -1,1 +1,1 @@
-docker run -d --net=bridge --name jmeter --interactive --tty --volume `pwd`:/jmeter egaillardon/jmeter --nongui --testfile test.jmx --logfile result.jtl
+docker run -d --net=bridge -e APP_HOST=[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com --name jmeter --interactive --tty --volume `pwd`:/jmeter egaillardon/jmeter --nongui --testfile test.jmx --logfile result.jtl
