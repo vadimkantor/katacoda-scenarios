@@ -1,5 +1,7 @@
 **Wildfly** Server will be started now.
 
+![WildFly Logo](./assets/wildfly.png)
+
 **Environment**
 
 Java 11
