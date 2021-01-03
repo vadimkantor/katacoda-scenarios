@@ -1,1 +1,1 @@
-[!"$(docker ps | grep wildfly)"] && echo "done"
+[-n "$(docker ps | grep wildfly)"] && echo "done"
