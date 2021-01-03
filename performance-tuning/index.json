@@ -12,16 +12,16 @@
         "code": "foreground.sh"
       },
       {
+        "title": "View GC Log",
+        "text": "viewGCLog.md"
+      },
+      {
         "title": "Install App",
         "text": "installApp.md"
       },
       {
         "title": "Start Load Generator",
         "text": "startLoad.md"
-      },
-      {
-        "title": "View GC Log",
-        "text": "viewGCLog.md"
       }
     ],
     "intro": {

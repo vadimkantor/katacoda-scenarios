@@ -1,3 +1,3 @@
-ssh root@host01 "docker run -d -p 8080:8080 --name wildfly -e JAVA_OPTS=\"-XX:+UseG1GC -Xms512m -Xmx512m -Xlog:gc=trace:file=gc.log:time,uptime,level,tags:filecount=100,filesize=100m\" jboss/wildfly"
+ssh root@host01 "docker run -d -p 8080:8080 --name wildfly -e JAVA_OPTS=\"-XX:+UseG1GC -Xms512m -Xmx512m -Xlog:gc=trace:file=gc.log -Xlog:gc+age*=trace -Xlog:gc+ergo*=trace -Xlog:gc+task*=trace -Xlog:gc+task+stats*=trace -Xlog:gc+jni*=debug -Xlog:gc+remset*=trace -Xlog:gc+marking*=trace -Xlog:gc+region*=trace  -Xlog:gc+heap=debug  -Xlog:safepoint -Xlog:gc+phases*=trace \" jboss/wildfly"
 
 echo "done" >> /root/katacoda-finished
