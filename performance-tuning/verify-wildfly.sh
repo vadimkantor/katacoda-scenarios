@@ -1,0 +1,1 @@
+[ ! "$(docker ps | grep wildfly)" ] && echo "done"
