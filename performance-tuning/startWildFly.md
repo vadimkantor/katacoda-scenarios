@@ -8,7 +8,7 @@ Java 11
 
 **Java Options**
 
--XX:+UseG1GC -Xms512m -Xmx512m -Xlog:all=debug:gc.log -Xlog:gc+ergo*=trace:gc.log -Xlog:gc+age*=trace:gc.log
+-XX:+UseG1GC -Xms512m -Xmx512m -Xlog:gc+heap=debug:gc.log -Xlog:safepoint:gc.log -Xlog:gc+ergo*=trace:gc.log
 
 Those are options that became available with Java 9 and are here to correspond to the flags that were removed or deprecated. Here are some of the options available in the earlier Java Virtual Machine versions and the options that they translate to in Java 9 and newer:
 
