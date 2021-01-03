@@ -6,9 +6,9 @@
   "details": {
     "steps": [
       {
-        "title": "Setup",
-        "text": "setup.md",
-        "courseData": "setupEnv.sh",
+        "title": "Start WildFly Server",
+        "text": "startWildFly.md",
+        "courseData": "startWildFly.sh",
         "code": "foreground.sh"
       },
       {
