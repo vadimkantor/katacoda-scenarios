@@ -18,6 +18,10 @@
       {
         "title": "Start Load Generator",
         "text": "startLoad.md"
+      },
+      {
+        "title": "View GC Log",
+        "text": "viewGCLog.md"
       }
     ],
     "intro": {
