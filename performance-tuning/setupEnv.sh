@@ -1,3 +1,3 @@
-ssh root@host01 "docker run -d -p 8080:8080 --name wildfly -e JAVA_OPTS=\"-Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -XX:-HeapDumpOnOutOfMemoryError -verbosegc -XX:+PrintGCDetails -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=30 -XX:GCLogFileSize=100M -XX:+PrintGCDateStamps -XX:-TraceClassUnloading -Xloggc:/opt/jboss/wildfly/standalone/log/gc.log\" jboss/wildfly"
+ssh root@host01 "docker run -d -p 8080:8080 --name wildfly -e JAVA_OPTS=\"-Xms512m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Xlog:gc=debug:file=gc.log:time,uptime,level,tags:filecount=100,filesize=100m -XX:+UseG1GC \" jboss/wildfly"
 
 echo "done" >> /root/katacoda-finished
