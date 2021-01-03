@@ -71,7 +71,8 @@
       }
     ],
     "uilayout": "editor-terminal-v1",
-    "uisettings": "bash"
+    "uisettings": "bash",
+    "exclusionPatterns": [".*"]
   },
   "backend": {
     "imageid": "ubuntu",
