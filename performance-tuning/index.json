@@ -23,6 +23,34 @@
       {
         "title": "Start Load Generator",
         "text": "startLoad.md"
+      },
+      {
+        "title": "Tuning the Java Virtual Machine",
+        "text": "tuningJVM.md"
+      },
+      {
+        "title": "Tuning WildFly",
+        "text": "tuningWildFly.md"
+      },
+      {
+        "title": "EJB Tuning in WilfFly",
+        "text": "tuningEJB.md"
+      },
+      {
+        "title": "Tuning the Persistence Layer",
+        "text": "tuningPersistence.md"
+      },
+      {
+        "title": "Tuning the Web Container in WildFly",
+        "text": "tuningWebContainer.md"
+      },
+      {
+        "title": "Tuning Web Application (JSF)",
+        "text": "tuningJSF.md"
+      },
+      {
+        "title": "Tuning JMS",
+        "text": "tuningJMS.md"
       }
     ],
     "intro": {
